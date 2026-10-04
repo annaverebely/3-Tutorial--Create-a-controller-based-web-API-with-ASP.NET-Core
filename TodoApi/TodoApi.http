@@ -23,3 +23,31 @@ GET {{TodoApi_HostAddress}}/api/todoitems
 GET {{TodoApi_HostAddress}}/api/todoitems/1
 
 ###
+
+GET {{TodoApi_HostAddress}}/api/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/api/todoitems/1
+
+
+###
+
+POST {{TodoApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{  
+  "name": "bevásárlás",
+  "isComplete": false
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/api/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/api/todoitems/2
+
+
+###
