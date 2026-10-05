@@ -70,3 +70,46 @@ DELETE {{TodoApi_HostAddress}}/api/todoitems/1
 GET {{TodoApi_HostAddress}}/api/todoitems
 
 ###
+
+GET {{TodoApi_HostAddress}}/api/todoitems
+
+###
+
+POST {{TodoApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "főzés",
+  "isComplete": true,
+  "Secret" : "nemküldhető"
+}
+
+###
+
+POST {{TodoApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  //TodoItem
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/api/todoitems
+
+###
+
+PUT {{TodoApi_HostAddress}}/api/todoitems/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "kert",
+  "isComplete": false
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/api/todoitems
+
+###
