@@ -51,3 +51,14 @@ GET {{TodoApi_HostAddress}}/api/todoitems/2
 
 
 ###
+
+PUT {{TodoApi_HostAddress}}/api/todoitems/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+
+###
