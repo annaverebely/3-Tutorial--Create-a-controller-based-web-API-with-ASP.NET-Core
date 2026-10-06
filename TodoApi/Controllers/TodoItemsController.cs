@@ -129,4 +129,4 @@ public class TodoItemsController : ControllerBase
     //"Routing and URL paths" section from tutorial is read
     //"Return values" section from tutorial is read
     //"Test with other tools" section of the tutorial is read
-
+    //Web API video series, Enterprise web app patterns, Add authentication support to a web API, Publish to Azure, Additional resources sections are read
